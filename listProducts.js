@@ -12,7 +12,14 @@ function products(numberOfProducts){
 	}
 }
 
-
+function products2(numberOfProducts){
+	for(var i = 0; i < numberOfProducts; i++){
+		var newFakeProduct = `${faker.commerce.productAdjective()} ${faker.commerce.productMaterial()} ${faker.commerce.product()} - $${faker.commerce.price()}`;
+		console.log(newFakeProduct);
+	}
+}
 
 products(10);
+console.log("************");
+products2(10);
 
