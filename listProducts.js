@@ -8,8 +8,8 @@ function products(numberOfProducts){
 		var material = faker.commerce.productMaterial();
 		var product = faker.commerce.product();
 		var price = faker.commerce.price();
-		var newFakeProduct = `${adj} ${material} ${product} - ${price}`;
-		fakeProducts.push(newFakeProduct;
+		var newFakeProduct = `${adj} ${material} ${product} - $${price}`;
+		fakeProducts.push(newFakeProduct);
 		//return fakeProducts
 	}
 
